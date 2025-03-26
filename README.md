@@ -18,4 +18,4 @@ It replicates the basic UI of Amazon with a responsive design.
 ## 📂 How to Use  
 1. Clone the repository  
    ```bash
-   git clone https://github.com/aveenavin/amazon-clone.git
+   git clone https://github.com/aveenavin/Amazon-e-commerce-clone.git
