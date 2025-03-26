@@ -1,7 +1,7 @@
 # 🛒 Amazon Clone  
 
 
- [Amazon clone image](https://raw.githubusercontent.com/aveenavin/Amazon-e-commerce-clone/refs/heads/main/Screenshot%20of%20clone.png)
+ [Amazon clone image](https://raw.githubusercontent.com/aveenavin/Amazon-e-commerce-clone/refs/heads/main/Screenshot%20of%20clone.png) 
 
 This is a simple Amazon Clone built using **HTML & CSS**.  
 It replicates the basic UI of Amazon with a responsive design.  
