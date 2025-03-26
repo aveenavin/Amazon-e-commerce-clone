@@ -1,0 +1,364 @@
+* {
+    margin: 0px;
+
+    font-family: Arial;
+    /* border: border-box; */
+    box-sizing: border-box;
+
+}
+
+/* //////////////////////////// HEADER //////////////////////////////////// */
+
+/*================================= NAV BAR =================================== */
+
+.navbar {
+    height: 70px;
+
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.5px;
+}
+
+/* 1----------------------------------------------------------------------- */
+
+.nav-box1 {
+    height: 45px;
+    width: 70px;
+    border: 1px solid transparent;
+}
+
+.amazon {
+    height: 45px;
+    width: 100%;
+    background: url("aphoto/amazon_logo\ copy.png") no-repeat center;
+    background-size: contain;
+}
+
+/* 2----------------------------------------------------------------------- */
+.Deliver {
+    color: antiquewhite;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.india {
+    font-size: 1rem;
+
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav-box2 {
+    padding: 5px;
+}
+
+/*3------------------------------------------------------------------------ */
+.nav_search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 630px;
+    height: 40px;
+    background-color: #febd68;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.select {
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*4------------------------------------------------------------------------ */
+span {
+    font-size: 0.8rem;
+}
+
+.a_l {
+    font-weight: 750;
+
+}
+
+.nav_sign {
+    padding: 5px;
+}
+
+/*5------------------------------------------------------------------------ */
+.cart>i {
+    font-size: 25px;
+
+}
+
+.cart {
+    font-size: 0.80rem;
+    font-weight: 750;
+    padding: 6px;
+}
+
+/*================================= PENAL =================================== */
+.penal {
+    height: 35px;
+
+    background-color: rgb(25, 25, 124);
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.penal-option {
+    width: 70%;
+}
+
+.penal-option a {
+    display: inline;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+}
+
+.penal-deal {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 7px 8px;
+}
+
+.penal-all {
+    padding: 5px;
+}
+
+/* ///////////////////// complete HEADER ////////////////////////////////// */
+
+.hero-image {
+    height: 320px;
+
+    background: url("aphoto/hero 2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg {
+    height: 30px;
+    width: 90%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.80rem;
+    margin: 25px;
+    border-radius: 3px;
+}
+
+.hero-msg a {
+    color: #108195;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------- */
+.shop {
+    height: 990px;
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(247, 245, 223);
+    flex-wrap: wrap;
+    align-content: first baseline;
+}
+
+.box {
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 17px 0px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.box-img {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    font-size: 1.3rem;
+
+}
+
+.box-content p {
+    color: #108195;
+    padding: 2px 4px;
+}
+
+/* ---------------------------------------------------------------------------- */
+.flight {
+    height: 232px;
+    width: 97%;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.flight-img {
+    height: 198px;
+    width: 100%;
+    background: url("aphoto/set.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Border:- */
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.nav_search:hover {
+    border: 2px solid orange;
+}
+
+.box-content p:active {
+    display: inline;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.box-img:active {
+    border: 2px solid orange;
+}
+.hero-msg a:hover{
+    text-decoration: underline;
+}
+.flight-img:active {
+    border: 2px solid orange;
+}
+
+/* ///////////////////// complete MAIN ////////////////////////////////// */
+footer {
+    margin-top: 15px;
+}
+
+.footer-penal1 {
+    height: 45px;
+
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-penal1>p {
+    font-size: 0.8rem;
+}
+
+/* ----------------------------------------------------------------------------- */
+.footer-penal2 {
+    height: 350px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul p {
+    font-weight: 670;
+    font-size: 0.9rem;
+}
+
+ul a {
+    display: block;
+    font-size: 0.80rem;
+    opacity: 0.9;
+    margin-top: 15px;
+
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------- */
+.footer-penal3 {
+    height: 51px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.logo {
+    height: 45px;
+    width: 100%;
+    background: url("aphoto/amazon_logo\ copy.png") no-repeat center;
+    background-size: contain;
+}
+
+.footer-penal4 {
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    flex-direction: column;
+}
+.faltu a{
+    padding: 4px 8px;
+}
+.faltu-2 p{
+    margin: 7px;
+}
+/* ////////////////////// complete footer //////////////////////////////////// */
