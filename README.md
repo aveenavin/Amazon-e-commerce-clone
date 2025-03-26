@@ -1,4 +1,5 @@
 # 🛒 Amazon Clone  
+[Amazon clone ](https://github.com/aveenavin/Amazon-e-commerce-clone/blob/main/Screenshot%20of%20clone.png?raw=true)
 
 
 ![Screenshot of clone](https://github.com/user-attachments/assets/9b7ad72b-0715-4e59-86e7-b4d73cd72b38)
