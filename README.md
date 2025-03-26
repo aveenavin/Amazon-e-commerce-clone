@@ -1,5 +1,6 @@
 # 🛒 Amazon Clone  
 ! [Amazon clone ](Screenshot%20of%20clone.png)
+
 This is a simple Amazon Clone built using **HTML & CSS**.  
 It replicates the basic UI of Amazon with a responsive design.  
 
