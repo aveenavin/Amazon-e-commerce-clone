@@ -8,7 +8,7 @@ This is a simple Amazon Clone built using **HTML & CSS**.
 It replicates the basic UI of Amazon with a responsive design.  
 
 ## 🌐 Live Demo  
-🔗 [Click Here to View](https://aveenavin.github.io/amazon-clone/)  
+🔗 [Click Here to View](https://aveenavin.github.io/Amazon-e-commerce-clone/)  
 
 ## 🚀 Features  
 ✅ Fully responsive design  
